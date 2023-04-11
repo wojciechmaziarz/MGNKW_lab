@@ -1,7 +1,6 @@
 import unittest
 from email import EmailExtractor
 
-
 class EmailExtractorTestCase(unittest.TestCase):
     def setUp(self) -> None:
         self.data = [
@@ -68,3 +67,4 @@ class EmailExtractorTestCase(unittest.TestCase):
 
 if __name__ == '__main__':
     unittest.main()
+

@@ -1,4 +1,5 @@
 import re
+
 class EmailExtractor:
 
     def __init__(self, email):
@@ -44,4 +45,5 @@ class EmailExtractor:
                 output_str += char
         ax3 = output_str.capitalize()
         return ax3
+
 
